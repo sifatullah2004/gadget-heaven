@@ -1,0 +1,266 @@
+[
+  {
+    "product_id": "LAP001",
+    "product_title": "Dell Inspiron 15",
+    "product_image": "https://i.ibb.co/XZdJ9ptX/dell-inspiron-15.png",
+    "category": "laptops",
+    "price": 749.99,
+    "description": "A reliable laptop for everyday use with powerful performance.",
+    "specifications": [
+      "Intel Core i5 11th Gen",
+      "8GB RAM",
+      "512GB SSD",
+      "15.6-inch FHD Display",
+      "Windows 11 Home"
+    ],
+    "availability": "In Stock",
+    "rating": 4.3
+  },
+  {
+    "product_id": "LAP002",
+    "product_title": "HP Pavilion x360",
+    "product_image": "https://i.ibb.co/gLDfF6Tp/HP-Pavilion-x36.png",
+    "category": "laptops",
+    "price": 859.99,
+    "description": "Convertible laptop with touchscreen and versatile performance.",
+    "specifications": [
+      "Intel Core i5 12th Gen",
+      "8GB DDR4 RAM",
+      "256GB SSD",
+      "14-inch Touch Display",
+      "360° Hinge"
+    ],
+    "availability": "In Stock",
+    "rating": 4.6
+  },
+  {
+    "product_id": "LAP003",
+    "product_title": "Lenovo IdeaPad Slim 5",
+    "product_image": "https://i.ibb.co/WW3kFYyL/Lenovo-Idea-Pad-Slim-5.png",
+    "category": "laptops",
+    "price": 699.99,
+    "description": "Sleek and lightweight laptop for students and professionals.",
+    "specifications": [
+      "AMD Ryzen 5 5500U",
+      "16GB RAM",
+      "512GB SSD",
+      "15.6-inch FHD",
+      "Windows 11"
+    ],
+    "availability": "Limited Stock",
+    "rating": 4.4
+  },
+  {
+    "product_id": "LAP004",
+    "product_title": "Apple MacBook Air M2",
+    "product_image": "https://i.ibb.co/LdP8JDj7/Apple-Mac-Book-Air-M2.png",
+    "category": "laptops",
+    "price": 1199.00,
+    "description": "Powerful and energy-efficient laptop with M2 chip.",
+    "specifications": [
+      "Apple M2 Chip",
+      "8GB Unified Memory",
+      "256GB SSD",
+      "13.6-inch Retina Display",
+      "macOS Ventura"
+    ],
+    "availability": "Pre-Order",
+    "rating": 4.8
+  },
+  {
+    "product_id": "LAP005",
+    "product_title": "ASUS ROG Strix G15",
+    "product_image": "https://i.ibb.co/k6SyV1Kr/lp1.png",
+    "category": "laptops",
+    "price": 1299.99,
+    "description": "High-performance gaming laptop with advanced cooling.",
+    "specifications": [
+      "AMD Ryzen 7 6800H",
+      "16GB DDR5 RAM",
+      "1TB SSD",
+      "NVIDIA RTX 3060",
+      "15.6-inch 144Hz Display"
+    ],
+    "availability": "In Stock",
+    "rating": 4.7
+  },
+  {
+    "product_id": "PHN001",
+    "product_title": "Samsung Galaxy S23",
+    "product_image": "https://i.ibb.co/xtDyVPQH/samsung-galaxy-s23.webp",
+    "category": "phones",
+    "price": 799.99,
+    "description": "Premium smartphone with stunning display and performance.",
+    "specifications": [
+      "6.1-inch AMOLED",
+      "Snapdragon 8 Gen 2",
+      "8GB RAM",
+      "128GB Storage",
+      "Triple Rear Cameras"
+    ],
+    "availability": "In Stock",
+    "rating": 4.5
+  },
+  {
+    "product_id": "PHN002",
+    "product_title": "Google Pixel 7",
+    "product_image": "https://i.ibb.co/8grDMPmV/images.png",
+    "category": "phones",
+    "price": 699.00,
+    "description": "Google’s flagship with AI features and clean Android experience.",
+    "specifications": [
+      "6.3-inch OLED",
+      "Google Tensor G2",
+      "8GB RAM",
+      "128GB Storage",
+      "50MP Camera"
+    ],
+    "availability": "In Stock",
+    "rating": 4.6
+  },
+  {
+    "product_id": "ACC001",
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "https://i.ibb.co/y9zR19C/logitech-mx-master-3.png",
+    "category": "accessories",
+    "price": 99.99,
+    "description": "Advanced ergonomic mouse for productivity.",
+    "specifications": [
+      "Silent Clicks",
+      "Customizable Buttons",
+      "USB-C Charging",
+      "Bluetooth and 2.4GHz"
+    ],
+    "availability": "In Stock",
+    "rating": 4.9
+  },
+  {
+    "product_id": "ACC002",
+    "product_title": "WD My Passport 1TB",
+    "product_image": "https://i.ibb.co/qYPmpWxS/wd-my-passport-12.png",
+    "category": "accessories",
+    "price": 59.99,
+    "description": "Portable external hard drive with password protection.",
+    "specifications": [
+      "USB 3.0",
+      "1TB Storage",
+      "Password Encryption",
+      "Automatic Backup"
+    ],
+    "availability": "In Stock",
+    "rating": 4.4
+  },
+  {
+    "product_id": "ACC003",
+    "product_title": "Anker USB-C Hub 7-in-1",
+    "product_image": "https://i.ibb.co/5WcscpnG/anker-usb-c-hub-7.png",
+    "category": "accessories",
+    "price": 39.99,
+    "description": "Compact hub for laptops with multiple port options.",
+    "specifications": [
+      "4K HDMI",
+      "2 USB 3.0",
+      "SD/TF Card Reader",
+      "USB-C PD Charging"
+    ],
+    "availability": "In Stock",
+    "rating": 4.7
+  },
+  {
+    "product_id": "ACC004",
+    "product_title": "JBL GO 3 Bluetooth Speaker",
+    "product_image": "https://i.ibb.co/V04yg3nz/jbl-go-3-bluetooth-speaker.png",
+    "category": "accessories",
+    "price": 49.99,
+    "description": "Ultra-portable waterproof speaker with punchy sound.",
+    "specifications": [
+      "Waterproof IP67",
+      "5 Hours Battery",
+      "Bluetooth 5.1",
+      "Compact Design"
+    ],
+    "availability": "In Stock",
+    "rating": 4.6
+  },
+  {
+    "product_id": "WCH001",
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://i.ibb.co/mrrj849s/apple-watch-series-9.png",
+    "category": "smart watch",
+    "price": 429.00,
+    "description": "Latest Apple Watch with health and safety features.",
+    "specifications": [
+      "Retina Display",
+      "ECG and Blood Oxygen",
+      "Swimproof",
+      "GPS + Cellular"
+    ],
+    "availability": "In Stock",
+    "rating": 4.8
+  },
+  {
+    "product_id": "IPH001",
+    "product_title": "iPhone 15",
+    "product_image": "https://i.ibb.co/hxcKPmY4/iphone-15.png",
+    "category": "iphone",
+    "price": 899.00,
+    "description": "Apple’s latest iPhone with advanced camera and Dynamic Island.",
+    "specifications": [
+      "A16 Bionic Chip",
+      "6.1-inch Super Retina XDR",
+      "128GB Storage",
+      "Dual Camera System"
+    ],
+    "availability": "In Stock",
+    "rating": 4.9
+  },
+  {
+    "product_id": "IPH002",
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://i.ibb.co/d4Rxbs9D/iphone-14-pr.png",
+    "category": "iphone",
+    "price": 999.00,
+    "description": "High-end iPhone with ProMotion display and Pro camera system.",
+    "specifications": [
+      "A16 Bionic",
+      "6.1-inch OLED",
+      "Triple 48MP Camera",
+      "Face ID"
+    ],
+    "availability": "In Stock",
+    "rating": 4.8
+  },
+  {
+    "product_id": "IPH003",
+    "product_title": "iPhone 10",
+    "product_image": "https://i.ibb.co/gswVv4G/iphone-se-2nd.png",
+    "category": "iphone",
+    "price": 429.00,
+    "description": "Affordable iPhone with powerful A15 chip.",
+    "specifications": [
+      "4.7-inch Retina HD",
+      "A15 Bionic",
+      "64GB Storage",
+      "Touch ID"
+    ],
+    "availability": "In Stock",
+    "rating": 4.5
+  },
+  {
+    "product_id": "LAP006",
+    "product_title": "Dell Pro 15",
+    "product_image": "https://i.ibb.co/M5D2rj85/ASUS-ROG-Strix-G15.png",
+    "category": "laptops",
+    "price": 709.99,
+    "description": "A reliable laptop for everyday use with powerful performance.",
+    "specifications": [
+      "Intel Core i3 11th Gen",
+      "8GB RAM",
+      "512GB SSD",
+      "15.6-inch FHD Display",
+      "Windows 10 Home"
+    ],
+    "availability": "In Stock",
+    "rating": 4.5
+  }
+]
