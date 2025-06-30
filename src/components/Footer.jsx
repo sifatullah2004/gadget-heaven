@@ -1,12 +1,12 @@
-import Heading from "./Heading";
-
 const Footer = () => {
   return (
-    <div className="bg-transparent py-6">
-      <Heading
-        title={"Gadget Heaven"}
-        subtitle={"Leading the way in cutting-edge technology and innovation."}
-      ></Heading>
+    <div className="bg-white py-6">
+      <div className="text-center py-4">
+        <h2 className="text-3xl font-semibold pb-3">Gadget Heaven</h2>
+        <h3 className="text-gray-500 font-medium max-w-6/12 mx-auto">
+          Leading the way in cutting-edge technology and innovation.
+        </h3>
+      </div>
 
       <footer className="footer sm:footer-horizontal md:justify-around text-base-content p-10">
         <nav>

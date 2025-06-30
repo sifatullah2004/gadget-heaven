@@ -1,11 +1,13 @@
 import { NavLink, Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../components/Banner";
 import bannerImg from "../assets/banner.jpg";
+import PageTitle from "../components/PageTitle";
 const Home = () => {
   const categories = useLoaderData();
 
   return (
     <div>
+      <PageTitle title={'Home'}></PageTitle>
       <Banner></Banner>
 
       <div className="max-w-8/12 max-h-full  mx-auto rounded-2xl border-2 border-gray-400 p-6 -mt-44 ">

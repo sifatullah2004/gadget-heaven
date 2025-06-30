@@ -1,13 +1,17 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import Heading from "../components/Heading";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { GrFavorite } from "react-icons/gr";
-import Rating from "react-rating";
+import {  addToLc, addWishlistToLc } from "../utils";
+import { CostsContext } from "../context/CostsContext";
+import PageTitle from "../components/PageTitle";
+
 const ProductDetails = () => {
   const { id } = useParams();
   const data = useLoaderData();
   const [product, setProduct] = useState({});
+  const [isWished, setIsWished] = useState(false);
 
   useEffect(() => {
     const singleProduct = data.find((product) => product.product_id === id);
@@ -24,8 +28,21 @@ const ProductDetails = () => {
     specifications,
   } = product;
 
+  const { handleCost } = useContext(CostsContext);
+
+  const handleAddToCart = (product) => {
+    addToLc(product);
+    handleCost(product.price)
+  };
+
+  const handleAddToWishlist = (product) => {
+    addWishlistToLc(product);
+    setIsWished(true);
+  };
+
   return (
     <div className="pb-20">
+      <PageTitle title={"Product Details"}></PageTitle>
       <div className="bg-[#9538E2] text-white pb-52">
         <Heading
           title={"Product Details"}
@@ -38,12 +55,15 @@ const ProductDetails = () => {
       <div className="hero bg-base-200 h-full max-w-8/12 mx-auto -mt-48 rounded-3xl py-5">
         <div className="hero-content flex-col lg:flex-row text-lg gap-7">
           <div className="">
-            <img src={product_image} className="lg:max-w-sm lg:bg-base-300 rounded-lg lg:shadow-2xl py-20" />
+            <img
+              src={product_image}
+              className="lg:max-w-sm lg:bg-base-300 rounded-lg lg:shadow-2xl py-20"
+            />
           </div>
           <div className="flex flex-col gap-3">
             <h1 className="text-3xl font-semibold">{product_title}</h1>
 
-            <p className="text-xl font-semibold">Price: ${price}</p>
+            <p className="text-xl font-semibold">Price: $ {price}</p>
 
             <p className="badge badge-outline badge-success text-sm bg-green-50 rounded-3xl">
               {availability}
@@ -63,8 +83,8 @@ const ProductDetails = () => {
               ))}
             </div>
 
-            <p>Rating:</p>
             <div>
+              <p className="font-bold">Rating:</p>
               <div className="rating">
                 <input
                   type="radio"
@@ -102,10 +122,17 @@ const ProductDetails = () => {
             </div>
 
             <div className="flex items-center gap-3">
-              <button className="btn rounded-4xl bg-[#9538E2] text-white">
+              <button
+                className="btn rounded-4xl bg-[#9538E2] text-white"
+                onClick={() => handleAddToCart(product)}
+              >
                 Add to Card <MdOutlineShoppingCart />{" "}
               </button>
-              <button className="border border-gray-300 p-3 rounded-full">
+              <button
+                disabled={isWished}
+                className="border btn hover:bg-[#9538E2] hover:text-white border-gray-300 p-3 rounded-full"
+                onClick={() => handleAddToWishlist(product)}
+              >
                 <GrFavorite />
               </button>
             </div>

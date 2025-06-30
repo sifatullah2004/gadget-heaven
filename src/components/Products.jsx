@@ -26,7 +26,10 @@ const Products = () => {
 
   return (
     <>
-      {category === "macBook" && <NotFound massage={'No Data Found'}></NotFound>}
+      {category === "macBook" && (
+        <NotFound massage={"No Data Found"}></NotFound>
+      )}
+      
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product, idx) => (
           <Product key={idx} product={product}></Product>

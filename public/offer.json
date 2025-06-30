@@ -1,0 +1,38 @@
+[
+  {
+    "offer_id": "OFFER001",
+    "discount_percentage": 20,
+    "condition": "Minimum purchase of $1000",
+    "membership_type": "Gold",
+    "valid_till": "2025-07-31",
+    "offer_title": "Gold Member Summer Deal",
+    "applicable_products": ["Electronics", "furniture"]
+  },
+  {
+    "offer_id": "OFFER002",
+    "discount_percentage": 15,
+    "condition": "New users only",
+    "membership_type": "Silver",
+    "valid_till": "2025-08-15",
+    "offer_title": "Welcome Bonus",
+    "applicable_products": ["All"]
+  },
+  {
+    "offer_id": "OFFER003",
+    "discount_percentage": 30,
+    "condition": "On orders above $2000",
+    "membership_type": "Platinum",
+    "valid_till": "2025-09-01",
+    "offer_title": "Platinum Mega Sale",
+    "applicable_products": ["Appliances", "home decor"]
+  },
+  {
+    "offer_id": "OFFER004",
+    "discount_percentage": 10,
+    "condition": "Minimum purchase 2 products",
+    "membership_type": "Basic",
+    "valid_till": "2025-07-15",
+    "offer_title": "Flash Sale for All Members",
+    "applicable_products": ["Clothing", "accessories"]
+  }
+]

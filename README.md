@@ -1,12 +1,21 @@
-# React + Vite
+# Gadget Heaven
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Requirement Document Link
+file:///C:/Users/Pavillion/Desktop/Github%20Projects/Assignment-8-resources/B10-A8-gadget-heaven/Batch-10_Assignment-08.pdf
 
-Currently, two official plugins are available:
+## Live Website Link
+gadget-heaven-efficient-part.surge.sh
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## I have used for handling and managing data 
+Both context API & local storage
 
-## Expanding the ESLint configuration
+## List of React Fundamental concepts used in the project
+jsx, props, component, useState, useEffect, Conditional Rendering, react router
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 5 features of your website/project
+1. It has 16 products anyone can buy these and add wishlist
+2. It has a categories option. Each option provides different type of product.
+3. Each product card has detail button which provide details of a particular product.
+4. It has dashboard page in which card & wishlist is existed. 
+5. Anyone can purchase product by clicking purchase button.
+6. Everyone can take offer which is preferable for him/her. 

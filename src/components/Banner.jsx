@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const Banner = () => {
   return (
-    <div className="hero bg-[#9538E2] w-11/12 mx-auto">
+    <div className="hero bg-[#9538E2] w-11/12 mx-auto rounded-b-3xl">
       <div className="hero-content">
         <div className="md:max-w-8/12 text-center pt-20 pb-52 text-white">
           <h1 className="text-2xl md:text-5xl font-bold">
@@ -11,7 +13,7 @@ const Banner = () => {
             next level. From smart devices to the coolest accessories, we have
             it all!
           </p>
-          <button className="btn text-[#9538E2] rounded-3xl">Shop Now</button>
+          <button className="btn text-[#9538E2] text-xl font-bold rounded-3xl leading-1"><Link to={'/dashboard'}>Shop Now</Link></button>
         </div>
       </div>
     </div>
